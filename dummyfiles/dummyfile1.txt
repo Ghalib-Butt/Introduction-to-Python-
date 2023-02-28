@@ -1,0 +1,2 @@
+This file is a created with some dummy data for file reading operations in python.
+I have created this file named dummyfile.txt in a new folder called dummyfiles and this folder is located at root of current directory folder PYTHON3.8.
