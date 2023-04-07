@@ -27,6 +27,11 @@ class Car:
         self.power = power
         self.type = type
         Car.count += 1
+        print(f"Car with name {self.name} is created.\n")
+
+    def __del__(self):
+        Car.count -= 1
+        print(f"Car with name {self.name} is deleted.\n")
 
     # instance method 1
     def copy(self):
